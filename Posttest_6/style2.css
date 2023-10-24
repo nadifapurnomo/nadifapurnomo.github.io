@@ -1,0 +1,183 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+}
+
+.dark-theme .nav_teks:hover {
+    color: black;
+    background-color: white;
+    border-radius: 35px;
+    transition: color 300ms ease-in-out;
+}
+
+.nav_teks:hover {
+    color: white;
+    background-color: black;
+    border-radius: 35px;
+    transition: color 300ms ease-in-out;
+}
+
+.tambah_teks:hover {
+    color: rgb(0, 0, 0);
+    transition: color 300ms ease-in-out;
+}
+
+table tbody a:hover {
+    color: rgb(0, 0, 0);
+    transition: color 300ms ease-in-out;
+}
+.menu-item li {
+    margin: 0 0.5rem;
+    padding: 0 0.5rem;
+    border-radius: 20px;
+}
+
+
+.menu-item li:hover {
+    transform: scale(1.1);
+    /* background-color: rgb(255, 255, 255); */
+    transition: all 300ms ease-in-out;
+}
+
+.menu-item li a {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--secondary-color);
+}
+
+
+.menu-item li a:hover {
+    color: white;
+    transition: color 300ms ease-in-out;
+}
+
+:root{
+    --primary-color: #ffff;
+    --secondary-color: #212121;
+}
+
+body{
+    background-color: var(--primary-color);;
+    color: var(--secondary-color);
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #ff4646;
+}
+
+table {
+    border: 1px solid #ddeeee;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 80%;
+    margin: 10px auto;
+}
+
+table thead th {
+    background-color: #ff4646;
+    border: 1.5px solid var(--secondary-color);
+    color: #ffffff;
+    padding: 10px;
+    text-align: left;
+    text-shadow: 1px 1px 1px whitesmoke;
+}
+
+table tbody td {
+    border: 1.5px solid var(--secondary-color);
+    color: var(--secondary-color);
+    padding: 10px;
+}
+
+table tbody a {
+    background-color: #ff4646;
+    color: #ffff;
+    padding: 10px;
+    font-size: 12px;
+    text-decoration: none;
+    border: 1px solid;
+    display: flex;
+    align-items: center; 
+    justify-content: center;    
+}
+
+.tambah_teks {
+    background-color: #ff4646;
+    color: #ffff;
+    padding: 10px;
+    font-size: 12px;
+    text-decoration: none;
+    border: 1px solid;   
+    transform: scale(1.1);
+    /* background-color: rgb(255, 255, 255); */
+    transition: all 300ms ease-in-out;
+}
+
+.nav_teks {
+    /* background-color: #ff4646; */
+    color: black;
+    padding: 10px;
+    font-size: 12px;
+    text-decoration: none;
+    /* border: 1px solid;    */
+    transform: scale(1.1);
+    /* background-color: rgb(255, 255, 255); */
+    transition: all 300ms ease-in-out;
+}
+
+
+/* tambah data */
+label {
+    margin-top: 10px;
+    float: left;
+    text-align: left;
+    width: 100%;
+}
+
+.base {
+    width: 400px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button[type="submit"] {
+    padding: 6px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #ff4646;
+    border: 1.5px solid #ccc;
+    outline-color: var(--secondary-color);
+}
+input[type="text"] {
+    padding: 6px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    border: 1.5px solid #ccc;
+    outline-color: var(--secondary-color);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+button[type="submit"] {
+    margin-top: 10px;
+}
+
+button {
+    background-color: #ff4646;
+    color: var(--secondary-color);
+    padding: 10px;
+    font-size: 12px;
+    border: 0;
+    margin-top: 20px
+}
